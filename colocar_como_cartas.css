@@ -1,0 +1,48 @@
+.d1{
+	width: 100px;
+	height: 150px;
+	border: solid rgba(0, 0, 150, 1.0);
+	background-color: lightblue;
+	position: relative;
+	z-index: 5;
+}
+#d1{
+	width: 100px;
+	height: 150px;
+	border: solid rgba(0, 0, 150, 0.8);
+	background-color: lightblue;
+	position: relative;
+	left: 10px;
+	top: -150px;
+	z-index: 4;
+}
+.d2{
+	width: 100px;
+	height: 150px;
+	border: solid rgba(0, 0, 150, 0.6);
+	background-color: lightblue;
+	position: relative;
+	left: 20px;
+	top: -300px;
+	z-index: 3;
+}
+#d2{
+	width: 100px;
+	height: 150px;
+	border: solid rgba(0, 0, 150, 0.4);
+	background-color: lightblue;
+	position: relative;
+	left: 30px;
+	top: -450px;
+	z-index: 2;
+}
+.d3{
+	width: 100px;
+	height: 150px;
+	border: solid rgba(0, 0, 150, 0.2);
+	background-color: lightblue;
+	position: relative;
+	left: 40px;
+	top: -600px;
+	z-index: 1;
+}
